@@ -36,7 +36,6 @@ describe('register and login', () => {
             });
         });
 
-
         it("should test the login", async() => {
             const credential = { username: "tanilo", password: "password" };
             const res = await request(server)
